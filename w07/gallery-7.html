@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Jozzy Meteo Du Peuple</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css-gallery/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css-gallery/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css-gallery/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css-gallery/large.css" rel="stylesheet">
+
+
+</head>
+
+   <body>
+   <!-- HEADER HERE -->
+
+      <!-- Banner that displays on Fridays -->
+      <div class = "pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+      <!-- Responsive Header -->
+      <span id="numberOfvisits"> </span>
+         <header>
+        
+
+             <!-- Image is hosted through Glitch -->
+            <picture>
+            <img src="https://cdn.glitch.com/2aac8b6c-f0e7-401e-9e6a-ea976082cd21%2Fsmallerweatherlogo.png?v=1570711076366" alt="Meteo Du Peuple's Logo">
+            </picture>
+
+            <!-- Weather Site Title and Slogan - -->
+            <section class="headings">
+               <h1>Jozzy Meteo Du Peuple</h1>
+               <div class="motto">With Us You Can Go Anywhere!</div>
+            </section>
+
+         </header>
+
+      <!-- Navigation Bar-->   
+      <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a class = "active" href="#">Gallery</a></li>
+         </ul>
+      </nav>
+
+      <main>
+
+         <!-- Poppy picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/sailingboat.jpg" alt = "Escape in Capetown Sea">
+            <figcaption>Sailing free in oceanr! <br>
+               &#128247; by Peter Bellas</figcaption>
+         </figure>
+         
+         <!-- Lightning picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/botanicalgarden.jpg" alt = "Greezing at the Sisulu Botanical Garden">
+            <figcaption>This is nature! <br> 
+               &#128247; by Charles Mambou</figcaption>
+         </figure>
+
+         <!-- Dawn View picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/gardenroute.jpg" alt = "Open Road in Fishoek">
+            <figcaption>Amazing sight! <br>
+               &#128247; by Paul Bisizi</figcaption>
+         </figure>
+
+         <!-- Open Fields picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/singingbird.jpg" alt = "Springtime in Kruger National Park">
+            <figcaption>Spring Season in the Cape<br>
+               &#128247; by Edwige Mandzioka</figcaption>
+         </figure>
+
+         <!-- Flower picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/watersisulugarden.jpg" alt = "Sisulu Garden in Krugersdorp">
+            <figcaption>Waterfalls in the park!<br>
+               &#128247; by Monique Bibila</figcaption>
+         </figure>
+
+         <!-- Snowy Park picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/yosemite.jpg" alt = "Yosemite National Park">
+            <figcaption>Cold-Hearted<br>
+               &#128247; by Johanna Jacobs</figcaption>
+         </figure>
+
+         <!-- Open Road picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/beautifullandscape.jpg" alt = "Amazing Waterfall in Georgia">
+            <figcaption>How great the Lord is!<br>
+               &#128247; by Jackson Mapassa</figcaption>
+         </figure>
+
+         <!-- Hills picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/featherbrookhouse.jpg" alt = "Beautiful House for Sale in Krugersdorp">
+            <figcaption>This is a beautiful house<br>
+               &#128247; by Silvere Mandzioka</figcaption>
+         </figure>
+
+         <!-- Abandoned House picture -->
+         <figure>
+            <img src = "images-gallery/placeholder.jpg" data-src = "images-gallery/housewater.jpg" alt = "Amazing Escape to Natural Living">
+            <figcaption>House for retreat<br>
+               &#128247; by Lea Mambou</figcaption>
+         </figure>
+      </main>
+
+      <!-- Footer for Gallery Page -->
+      <footer>
+            <p>
+               &copy; Jozzy Meteo du Peuple &bull; <a id="byuiLink" href="https://www.byui.edu/online"><strong>BYU-Idaho Online Learning</strong> </a> | <b>Elie S. Mambou</b> &bull; <span id="copyrightyear"></span> | South Africa 
+            
+            <p id  = "fullDate"></p>
+         </footer>
+
+      <!-- Today's Date JavaScript -->   
+      <script src= "js-gallery/js/date.js"></script>
+
+      <!-- Navigation Menu Toggle JavaScript -->
+      <script src = "js-gallery/js/menu.js"></script>
+      
+      <!-- Web Font External JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>      
+
+      <!-- Web Loader for Google API Fonts -->
+      <script src = "js-gallery/js/webloader.js"></script> 
+
+      <!-- Lazy Loading JavaScript -->
+      <script src = "js-gallery/js/lazyscript.js"></script>
+
+      <!-- Pancakes Banner JavaScript -->
+      <script src = "js-gallery/js/saturdayevent.js"></script>
+      <script src = "js-gallery/numberOfvisits.js"></script>
+   </body>
+</html>

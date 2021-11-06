@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list example</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <style>
+         
+
+    </style>
+
+  
+  
+  </head>
+    
+  <body>
+
+    <h1>📘 Book of Mormon - Top 25</h1>
+<main>
+	<div class="input">
+		<label>Enter Book and Chapter<br>
+		<input type="text" id="favchap" placeholder="Alma 5" required></label>
+		<button type="submit">Add Chapter</button>
+	</div>
+	<div class="listcontainer">
+		<ul class="list">
+		</ul>
+   
+	</div>
+</main>
+
+    <script>
+      const list = document.querySelector('ul');
+      const input = document.querySelector('input');
+      const button = document.querySelector('button');
+
+      button.onclick = function() {
+        let myItem = input.value;
+        input.value = '';
+
+        const listItem = document.createElement('li');
+        const listText = document.createElement('span');
+        const listBtn = document.createElement('button');
+
+        listItem.appendChild(listText);
+        listText.textContent = myItem;
+        listBtn.textContent = '‍❌';
+        listItem.appendChild(listBtn);
+       
+        list.appendChild(listItem);
+
+        listBtn.onclick = function(e) {
+          list.removeChild(listItem);
+        }
+
+        input.focus();
+      }
+
+    </script>
+  </body>
+</html>
