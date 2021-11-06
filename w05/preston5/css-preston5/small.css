@@ -1,0 +1,266 @@
+/*******************************
+			Banner CSS				
+*******************************/
+.pancake {
+	width: auto;
+	background-color:bisque;
+	color: #242038;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
+	padding: 1.5%;
+	display: none;
+}
+
+#numberOfvisits {
+	text-align: center;
+	color:crimson;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.5em;
+	border: 2px solid black;
+}
+
+
+.logo {
+	width: 15%;
+}
+
+/*******************************
+			  Header CSS
+*******************************/
+header {
+	background-color:green;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.motto {
+	font-style: italic;
+	color: linen;
+	margin-left: 20px;
+	font-size: 0.9rem;
+	letter-spacing: 0.3pt;
+}
+
+/****************************
+		Navigation Bar CSS
+****************************/
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #240238;
+	color: linen;
+}
+
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: linen;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+.navigation a:hover {
+	color: #240238;
+	background-color: linen;
+	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
+}
+
+/****************************
+         Main CSS
+****************************/
+
+main { text-align: center;}
+
+clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+img { width: auto; max-width: 90%;}
+
+    .forecast img {
+        width: 40%;
+        margin: 20px auto;
+        }
+    
+        section.forecast { 
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto}
+            .photo {
+                float: right;
+                margin: 0 0 1rem 2rem;
+                border: solid black 2px;
+                 height:50%;
+                 width: 50%;
+                
+            }
+            section.forecast div {
+                text-align: center;
+                border: 1px solid #aaa; display: block;
+                }
+
+
+
+                      
+            /*section.article { 
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;}
+                        img.photo {
+                            float: right;
+                            margin: 0 0 1rem 2rem;
+                            border: solid black 2px; */
+                            
+               .flex-container { display: flex; flex-direction: column; flex-flow: column-reverse;
+    }         
+
+
+.theparent { position: relative; } 
+.theparent img { max-width: 100%; height: auto; }
+
+/*.thechild {
+    border: solid black 1px;
+    background-color: greenyellow;
+	max-width: 30%;
+	position: absolute;
+	left: 5px;
+	font-size: smaller;
+	top: 0px;
+}  */
+
+.thechild {
+	border: solid black 2px;
+	font-size: 0.6rem;
+	background-color: greenyellow;
+	left: 5px;
+	top: 0;
+	position: absolute;
+	padding: 0 2%;
+	margin: 20px 10px 10px 40px; 
+	opacity: 0.7;
+}
+
+
+
+.thechild h2, .thechild p { text-align: center; padding: 0 2%;
+}
+
+
+  h1 {
+    line-height: 10px;
+    font-weight: 200;
+    padding: 15px 0px 20px 0px; 
+    margin: 10px;
+    color:blue;
+    text-align: center; } 
+
+.google-map { width: 400px; height: 250px;}  
+
+
+    /* ---------------------MAIN----------------- */
+
+    
+.pancake {
+    background : #114B5F;
+    color : white;
+    text-align : center;
+    padding : 0.2rem;
+}
+
+
+    main section    {
+        padding: .3rem 2%;
+        min-height: .5rem;
+    }
+
+  
+ 
+    /*section .forecast img{ display: block;}*/
+
+    #message {background-color: yellow;}
+    div.showme{display: block}
+    div.hideme{display: none}
+
+  .article {
+      padding: 20px;
+  }
+  .article figure{width: 50%;
+	position: relative;
+	left: 15%;
+  }
+  figure .fig1 { display: none;}
+
+.contact { text-align: center;
+		background-color: linen;
+		color: #242038;
+	}
+    
+    .contact  h2 {
+        margin: 15px; text-align: center;
+		
+    }
+
+
+
+/*---FOOTER HERE ---*/
+
+
+	#byuiLink {
+		color:blue;
+		
+	}
+	
+
+footer {
+
+   text-align: center;
+	background-color:green;
+	color:brown;
+	/*padding: 8% 0% 8% 0%; 
+	font-size:medium;
+	width:100%; height: 80px; */
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 2% 0% 2% 0%;
+	
+}
+
+.copyrightyear {
+    font-family: sans-serif;
+    font-weight: 300;
+}

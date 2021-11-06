@@ -1,0 +1,64 @@
+body {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  header, main, footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 16px;  
+  }
+  
+  header {  
+    background-color: rgb(56, 11, 11);
+    color: white;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 16px;
+  }
+  
+  /* ----------main--------- */
+  
+  main h2 {  
+    border-bottom: 2px solid rgb(146, 155, 165);
+    padding-bottom: 8px;
+    margin: 0;  
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.3em;
+  }
+  
+  main ul {
+    padding-top: 8px;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.3em;
+  }
+  
+  /* ----------footer--------- */
+  
+  footer {
+    background-color: rgb(56, 11, 11);
+    color: white;
+    text-align: center;
+    line-height: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  #lu {
+    color: rgb(252, 213, 115);
+  }
+ 

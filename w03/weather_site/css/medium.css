@@ -1,0 +1,58 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    header img{width: auto;}
+    header h1{ font-size: 2rem;}
+    header h2{font-size: 1.5rem;} 
+    
+    
+    /*----------- NAVIGATION --------------*/
+        nav ul {margin-left: 2%;}
+        nav ul li {float: left;}
+    
+        nav ul li a{padding: .5rem 1rem;}
+    
+    
+    /*----------- MAIN --------------*/
+    
+  
+
+
+    
+    /*----------- FOOTER --------------*/
+        /* Medium Views */
+@media only screen and (min-width: 36.5em) {
+    h1 { font-size: 1.6rem;}
+
+#website_name {
+  color: var(--accent1-color);}
+
+    /* Horizontal Menu */
+    /* Flex */
+      nav ul { display: flex; }
+      nav ul li { flex: 1 1 100%; } 
+    
+      .persona-box {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+      .persona-box-1 {
+          display: grid;
+          grid-column: 1/2;
+          padding: 0 5px;        
+      }   
+      .persona-box-2 {
+          display: grid;
+          grid-column: 2/3;
+          padding: 0 10px;               
+     }    
+    }
+    
+    
+    } /* end of media query */

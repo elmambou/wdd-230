@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Jozzy Meteo Du Peuple</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css-preston6/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css-preston6/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css-preston6/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css-preston6/large.css" rel="stylesheet">
+
+
+</head>
+
+   <body>
+   <!-- HEADER HERE -->
+
+      <!-- Banner that displays on Fridays -->
+      <div class = "pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+      <!-- Responsive Header -->
+  
+         <header>
+        
+
+             <!-- Image is hosted through Glitch -->
+            <picture>
+            <img src="https://cdn.glitch.com/2aac8b6c-f0e7-401e-9e6a-ea976082cd21%2Fsmallerweatherlogo.png?v=1570711076366" alt="Meteo Du Peuple's Logo">
+            </picture>
+
+            <!-- Weather Site Title and Slogan - -->
+            <section class="headings">
+               <h1>Jozzy Meteo Du Peuple</h1>
+               <div class="motto">With Us You Can Go Anywhere!</div>
+            </section>
+
+         </header>
+
+      <!-- Navigation Bar-->   
+      <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class = "active" href="#">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+         </ul>
+      </nav>
+
+      <main class="clearfix">
+        <div id='message'> Check out the weather forecast for Johannesburg, Gauteng now and how it will evolve these days.</div>
+        <h1>Preston, Idaho</h1>
+        <div class="theparent">
+            <picture>                                                                                        
+            <source srcset ="images/golgotha500.jpg" media= "(min-width:330px) and (max-width:500px)">
+            <source srcset = "images/golgotha800.jpg" media="(max-width: 800px)"> 
+            <img src = "images/golgotha1100.jpg" alt="Preston Weather Summary"> 
+            </picture>
+            
+            <div class ="thechild">
+               <h2>Weather Summary</h2>
+                   <p>Currently: Overcast</p>
+                   <p>High: <span id = "temp">35</span> &#8457;</p>
+                   <p>Wind Chill: <span id = "windchill"></span></p>
+                   <p>Humidity: 88%</p>
+                   <p>Wind Speed: <span id = "wspeed">19</span> mph</p>
+              
+            </div>
+        </div>
+
+        <h2 id="forecast">5 Days Forecast</h2>
+        <section class ="forecast">
+        <div>
+            <h3>Monday</h3>
+            <img src="images/rain.png" alt="rain">
+            <p>40&deg;</p>
+        </div>
+        <div>
+            <h3>Tuesday</h3>
+            <img src="images/snow.png" alt="snow">
+            <p>30&deg;</p>
+        </div>
+
+        <div>
+            <h3>Wednesday</h3>
+            <img src='images/sunny.png' alt="sunny">
+            <p>75&deg;</p>
+        </div>
+        <div>
+            <h3>Thursday</h3>
+            <img src='images/rain.png' alt="rain">
+            <p>40&deg;</p>
+        </div>
+         <div>
+            <h3>Friday</h3>
+            <img src='images/rain.png' alt="rain">
+            <p>40&deg;</p>
+        </div>
+        </section>
+
+
+    <section class="article">
+        <h2>Article Title</h2>
+        
+        <figure>
+        <img class= "fig1" src="images/run.jpg" alt="Beautiful Sunset">
+        <figcaption class= "fig1" > Beautiful Sunset</figcaption>
+        </figure>
+        <p>
+        AfriWX brings a variety of weather resources for South Africa to you in the palm of your hand. 
+            We always have the latest up to date Satellite Weather Images for Southern Africa and Beautiful
+            Animated Satellite Images with no need for users to be fiddling with trying to refresh their browsers 
+            to get the latest images, we take care of that all for you through our custom server technologies.
+            We also provide the latest up to date Global Forecast System (GFS) forecast model maps (WXMaps) in a 
+            format customized specially for South Africa giving you a 7 day outlook on predicted weather patterns.
+            Our GFS Weather Maps available in 1-7 days in advance in 00z and 12z times (00HR, 12HR, 24HR, 36HR, 48HR,
+            60HR, 72HR, 96HR, 120HR, 144HR), as well as 2 Week or 15 Day Extended Rainfall Forecasts and even Long Term 
+            Extended 3 Months Rainfall Outlook Maps We have a variety of other Weather Resources like the State of 
+            Dams (Reservoirs) in South Africa, Rainfall Predictions and Daily Recorded Rainfall Figures, WebCams, Wind Maps,
+            Cloud Cover Forecast Maps with Black Clouds Mode, Waves Forecasts, Ocean Swells and Sea Surface Temperatures,
+            Animated Satellite Photos, Solar Space Weather, ENSO - El Niño and La Niña Updates for Southern Africa, 
+            South African Weather Blog and more. This Weather Site is a work in progress and new features are being added frequently.
+        </p>
+        <figure>
+        <img class= "fig2" src="images/run.jpg" alt="Beautiful Sunset">
+        <figcaption class= "fig2"> Beautiful Sunset</figcaption>
+        </figure>
+                
+       
+    </section>
+
+    <section class="contact">
+            <h1> Contact Information </h1>
+        
+            <div class = "right">
+            <h3>Jozzy Meteo Du Peuple</h3>
+            <p>45 Jubilee Road<br>
+            Sandton, South Africa P.O 454785<br>
+            &#9742; +27 785 5698 782<br>
+            &#9993; info@jozzymeteodp.org<br><br>
+            <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/facebooklogo.png" alt = "Facebook Logo"></a>
+            <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/instagramlogo.png" alt = "Instagram Logo"></a>
+            </div>
+
+ 
+            
+            <div class="map">
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14326.270917417056!2d28.0408619!3d-26.1456338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1975bbfb2e4bc99!2s54%20on%20Bath!5e0!3m2!1sen!2sza!4v1634408454961!5m2!1sen!2sza" 
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    
+            </div>
+            </section>
+          
+
+      </main>
+
+      <!-- Footer for Gallery Page -->
+      <footer>
+            <p>
+               &copy; Jozzy Meteo du Peuple &bull; <a id="byuiLink" href="https://www.byui.edu/online"><strong>BYU-Idaho Online Learning</strong> </a> | <b>Elie S. Mambou</b> &bull; <span id="copyrightyear"></span> | South Africa 
+            
+            <p id  = "fullDate"></p>
+         </footer>
+
+      <!-- Today's Date JavaScript -->   
+      <script src= "js-preston6/js/date.js"></script>
+
+      <!-- Navigation Menu Toggle JavaScript -->
+      <script src = "js-preston6/js/menu.js"></script>
+        <script src = "js-preston/js/windchill.js"></script>
+      
+      <!-- Web Font External JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>      
+
+      <!-- Web Loader for Google API Fonts -->
+      <script src = "js-preston6/js/webloader.js"></script> 
+
+      <!-- Pancakes Banner JavaScript -->
+      <script src = "js-preston6/js/saturdayevent.js"></script>
+     
+   </body>
+</html>
