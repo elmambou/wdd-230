@@ -1,0 +1,34 @@
+/******************************
+   Desktop+ Viewports CSS
+******************************/
+@media only screen and (min-width: 60em) {
+   header, nav, main, .pancake, footer { 
+      max-width: 1024px;
+      margin: 0 auto;
+  }
+
+
+/****************************
+         Main CSS
+****************************/
+
+.thechild {
+   top: 2em;
+   left: 4em;
+   padding: 10px;
+   font-size: 1rem;  
+}
+
+
+.logo { width: 10%}
+
+
+
+/*************************
+      Footer CSS
+*************************/
+footer {
+   margin: 0 auto;
+   padding: 1% 0% 1% 0%;
+}
+}
