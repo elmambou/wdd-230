@@ -3,7 +3,7 @@
 ********************************/
 html {
 	margin: 0 auto;
-	background-color: #cac4ce;
+	background-color:#240238;
 }
 
 * {
@@ -124,14 +124,14 @@ main {
 	max-width: 100%;
 	width: 100%;
 	margin: 0 auto;
-	background-color:grey;
-	font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
+	background-color:#ffffff;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding-top: 1%;
 }
 
 h2 {
 	text-align: center;
-	color: linen;
+	color:black;
 	font-size: 1.5em;
 }
 
@@ -146,13 +146,13 @@ form {
 
 form fieldset {
 	margin: 0 auto;
-	border: 1px solid linen;
+	border: 1px solid black;
 	border-radius: 10px;
 	padding: 2% 5% 2% 5%;
 }
 
 form legend {
-	color: linen;
+	color: black;
 	margin: 0 2%;
 	padding: 0 2%;
 }
@@ -160,14 +160,14 @@ form legend {
 form label.top, form div, form label.slide {
 	display: block;
 	padding-top: 3%;
-	color: linen;
-	font-size: 1.4em;
+	color: black;
+	font-size: 1.0em;
 }
 
 form label.top input, form label.top select {
 	display: block;
 	font-size: 1rem;
-	border: solid 1px white;
+	border: solid 1px black;
 	border-radius: 4px;
 	padding: .75rem;
 	color: black;
@@ -177,8 +177,8 @@ form label.top input, form label.top select {
 	display: flex;
 	align-items: center;
 	padding-top: 5%;
-	color: white;
-	font-size: 1.4rem;
+	color: black;
+	font-size: 1.0rem;
 }
 
 #ratingvalue {
@@ -188,13 +188,13 @@ form label.top input, form label.top select {
 form label.radioB {
 	display: block;
 	padding: .75rem 0;
-	color: linen;
+	color: black;
 }
 
 form label.slide input {
 	display: block;
 	font-size: 1rem;
-	border: solid 1px white;
+	border: solid 1px black;
 	border-radius: 4px;
 	padding: .75rem;
 	color: black;
@@ -204,7 +204,7 @@ form label.slide input {
 
 form input.submitBtn {
 	border: none;
-	background-color: linen;
+	background-color: lightgreen;
 	color: black;
 	border-radius: 1rem;
 	padding: .75rem 1.5rem;
@@ -239,7 +239,7 @@ form label.top textarea {
 }
 
 form label.email input::placeholder {
-	color: gray;
+	color:black;
 }
 /****************************
 		Thank You Page
