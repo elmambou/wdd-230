@@ -1,0 +1,63 @@
+/******* Small View *******/
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7dde8;
+    margin: 0 auto;
+    max-width: 90%;
+ }
+ 
+ header h1 {
+    text-align: center;
+    color:darkslateblue;
+    font-size: 2em;
+
+ }
+ 
+ main .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.3em;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ main section {
+    border: 2px black solid;
+   /* box-shadow: 5px 5px 5px salmon; */
+    color: black;
+    background-color:#757f9a;
+ }
+ 
+ main .cards h2 {
+    font-size: 1.5em;
+    color:darkslateblue;
+ }
+ 
+ main .cards h3, p {
+    font-size: 0.9em;
+ }
+ 
+ img {
+    max-width: 40%;
+ }
+ 
+ footer {
+    color:black;
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 2%;
+    padding-bottom: 2%
+ }
+ /****** Tablet View *******9*/
+ @media only screen and (min-width: 32.5em) {
+    main .cards {
+       grid-template-columns: 1fr 1fr;
+    }
+ }
+ 
+ /****** Desktop View ******/
+ @media only screen and (min-width: 60em) {
+    main .cards {
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+ }
