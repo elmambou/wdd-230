@@ -100,10 +100,11 @@ nav {
 
 
 .navigation a:hover {
-	color: #240238;
-	background-color: linen;
-	font-weight: 700;
+  color: yellow;
+  background: rgba(0, 0, 0, .2);
+  font-weight:700;
 }
+
 
 .responsive li {
 	display: block;
