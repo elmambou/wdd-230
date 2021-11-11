@@ -104,7 +104,7 @@ nav {
 
 .navigation ul li.active a {
 	background-color: #b89191;
-	color: white;
+	color: yellow;
 }
 
 .navigation a:hover {
