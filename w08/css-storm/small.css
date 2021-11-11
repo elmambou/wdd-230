@@ -71,16 +71,6 @@ header img {
 /****************************
 		Navigation Bar CSS
 ****************************/
-nav {
-	margin: 0 auto;
-	max-width: 100%;
-	background-color: #240238;
-	color: linen;
-}
-
-
-/*navigation*/
-
 navigation {
   margin: 0 auto;
   background-color: #33605a;
