@@ -103,7 +103,7 @@ nav {
 }
 
 .navigation ul li.active a {
-	background-color: #b89191;
+	background: rgba(0, 0, 0, .2);
 	color: yellow;
 }
 
