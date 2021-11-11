@@ -98,6 +98,10 @@ nav {
 	font-weight: 700;
 }
 
+navigation ul li.active a {
+    background: rgba(0, 0, 0, .2);
+    color: yellow;
+}
 
 .navigation a:hover {
   color: yellow;
