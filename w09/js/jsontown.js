@@ -18,7 +18,6 @@ fetch (requestURL)
           let card = document.createElement('section');
           let h1 = document.createElement('h1');
           let h2 = document.createElement('h2');
-          let h3 = document.createElement('h3');
           let p1 = document.createElement('p');
           let p2 = document.createElement('p');
           let p3 = document.createElement('p');
@@ -27,8 +26,7 @@ fetch (requestURL)
 
           // Storing JSON data in HTML tag variables
           h1.textContent = arr[i].name;
-          h2.textContent = arr[i].name;
-          h3.textContent = arr[i].motto;
+          h2.textContent = arr[i].motto;
           p1.textContent = "Year Founded: " + arr[i].yearFounded;
           p2.textContent ="Population: " + arr[i].currentPopulation;
           p3.textContent ="Annual Rain Fall: " + arr[i].averageRainfall;
@@ -40,7 +38,6 @@ fetch (requestURL)
           // Creating entire content text
           text.appendChild(h1);
           text.appendChild(h2);
-          text.appendChild(h3);
           text.appendChild(p1);
           text.appendChild(p2);
           text.appendChild(p3);
