@@ -75,7 +75,7 @@ nav {
 	margin: 0 auto;
 	max-width: 100%;
 	background-color: #240238;
-	color: linen;
+	color:linen;
 }
 
 .navigation {
@@ -103,8 +103,8 @@ nav {
 }
 
 .navigation li a.active {
-	background-color: #240238;
-	color: white;
+	background-color:lightgrey;
+	color:yellow;
 }  
 
 .navigation a:hover {
