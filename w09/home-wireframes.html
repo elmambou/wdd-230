@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="Description" content="Homepage, Week 9, WDD230, Elie Mambou">
+
+<!-- This start file was build by Paul Cheney  -->
+<title> home | Jozzy Meteo Du Peuple</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+         <!-- Importing CSS Files -->
+         <link rel = "stylesheet" href = "css/normalize.css"> 
+         <link rel = "stylesheet" href = "css/small.css">   
+         <link rel = "stylesheet" href = "css/medium.css">
+         <link rel = "stylesheet" href = "css/large.css">
+
+         <!-- Importing favicon.io file -->
+         <link rel = "shortcut icon" href = "images/favicon.ico">
+
+</head>
+
+   <body>
+   <!-- HEADER HERE -->
+
+      <!-- Banner that displays on Fridays -->
+      <div class = "pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+      <!-- Responsive Header -->
+      <span id="numberOfvisits"> </span>
+         <header>
+        
+
+             <!-- Image is hosted through Glitch -->
+            <picture>
+            <img src="https://cdn.glitch.com/2aac8b6c-f0e7-401e-9e6a-ea976082cd21%2Fsmallerweatherlogo.png?v=1570711076366" alt="Meteo Du Peuple's Logo">
+            </picture>
+
+            <!-- Weather Site Title and Slogan - -->
+            <section class="headings">
+               <h1>Jozzy Meteo Du Peuple</h1>
+               <div class="motto">With Us You Can Go Anywhere!</div>
+            </section>
+
+         </header>
+
+      <!-- Navigation Bar -->   
+      <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class ="active" href="https://elmambou.github.io/wdd-230/w09/home-wireframes.html">Home</a></li>
+            <li><a href ="https://elmambou.github.io/wdd-230/w06/preston6.html">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="https://elmambou.github.io/wdd-230/w08/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://elmambou.github.io/wdd-230/w07/gallery-7.html">Gallery</a></li>
+            
+         </ul>
+      </nav>
+
+<main>
+
+         <!-- Banner Image-->
+    <img class = "bannerImage" src = "images/bannerimage.jpg" alt = "Weather Banner Image">
+  
+    <!-- JSON Cards, imported from JavaScript -->
+    <div class = "cards"></div>
+
+    <!-- Article Feature -->
+    <section class = "homeArticle">
+    <h1><em>Article by Louis Douglas</em></h1>
+
+    <!-- Filler Text -->
+    <p>“But there was no need to be ashamed of tears, for tears bore witness that a man had the greatest of
+     courage, the courage to suffer.”</p>
+
+     <p>"Don't aim at success. The more you aim at it and make it a target, the more you are going to miss it. For success, like happiness, 
+     cannot be pursued; it must ensue, and it only does so as the unintended side effect of one's personal dedication to a cause greater 
+     than oneself or as the by-product of one's surrender to a person other than oneself. Happiness must happen, and the same holds for 
+     success: you have to let it happen by not caring about it."</p>
+
+     <p>" I want you to listen to what your conscience commands you to do and go on to carry it out to the best of your knowledge. 
+     Then you will live to see that in the long-run—in the long-run, I say! success will follow you precisely because you had
+     forgotten to think about it."</p>
+
+     <p>“Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in
+     any given set of circumstances, to choose one’s own way.”
+     ― Viktor E. Frankl, Man's Search for Meaning</p>
+
+    </section>
+
+      <!-- Desktop, Tablet, and Mobile Wireframes -->
+  <section class = "wireframes">
+   <h1>Homepage Wireframes</h1>
+   <a href= "https://wireframe.cc/pro/pp/4b5d5b72b492637"> Desktop Wireframe</a><br>
+   <a href="https://wireframe.cc/pro/pp/546ec3159492653">Tablet Wireframe</a><br>
+   <a href="https://wireframe.cc/pro/pp/d58a2cd01492665">Mobile Wireframe</a>
+  </section>
+</main>
+
+
+      <!-- Footer for Storm Center Page -->
+    <footer>
+            <p>
+               &copy; Jozzy Meteo du Peuple &bull; <a id="byuiLink" href="https://www.byui.edu/online"><strong>BYU-Idaho Online Learning</strong> </a> | <b>Elie S. Mambou</b> &bull; <span id="copyrightyear"></span> | South Africa  
+            <p id  = "fullDate"></p>
+    </footer>
+
+      <!-- Weather Site JavaScript Date Format -->
+    <script src = "js/date.js"></script>
+
+    <!-- Importing JavaScript File for Navigation -->
+    <script src = "js/menu.js"></script>
+
+    <!-- Saturday Preston Pancakes -->
+    <script src = "js/saturdayevent.js"></script>
+
+    <!-- Importing Web Font JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <!-- Running Web Loader Function -->
+    <script src= "js/webloader.js"></script>
+
+    <!-- JSON JavaScript Import -->
+    <script src = "js/jsontown.js"></script>
+   </body>
+</html>

@@ -105,7 +105,7 @@ nav {
 .navigation li a.active {
 	background-color: #240238;
 	color: white;
-}
+}  
 
 .navigation a:hover {
 	color: #240238;
@@ -169,8 +169,8 @@ main {
  }
  
  .homeArticle {
-    background-color: #725ac1;
-    color: linen;
+    background-color:#cac4ce;
+    color:black;
     padding: 2% 2% 2% 2%;
     text-align: left;
     font-size: large;
