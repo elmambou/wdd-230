@@ -51,14 +51,14 @@ header img {
 
 .headings h1 {
    font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
-   color: linen;
+   color: black;
 	font-size: 1.6rem;
 	margin: 0 0 0 17px;
 }
 
 .motto {
 	font-style: italic;
-	color: linen;
+	color: black;
 	margin-left: 20px;
 	font-size: 0.9rem;
 	letter-spacing: 0.3pt;
