@@ -103,7 +103,7 @@ nav {
 }
 
 .navigation li a.active {
-	background-color:lightgrey;
+	background-color:lightgray;
 	color:yellow;
 }  
 
