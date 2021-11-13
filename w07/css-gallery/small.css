@@ -70,7 +70,7 @@ header img {
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #240238;
+	background-color:darkgreen;
 	color: linen;
 }
 
@@ -84,8 +84,8 @@ navigation {
 }
 
 navigation ul li.active a {
-  background: rgba(0, 0, 0, .2);
-  color: yellow;
+  background:lightgray;
+  color:green;
 }
 
 .navigation {
