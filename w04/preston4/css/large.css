@@ -1,1 +1,65 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 1141px) {
+   /* nav ul li a { padding: .6rem 1rem } */
+    header, nav, main, footer { 
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    nav {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+50,f07146+100;Red+3D+%232 */
+background: #f2825b; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2825b 0%, #e55b2b 50%, #f07146 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f2825b 0%,#e55b2b 50%,#f07146 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f2825b 0%,#e55b2b 50%,#f07146 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2825b', endColorstr='#f07146',GradientType=0 ); /* IE6-9 */
+
+    }
+
+    img.icon {
+        padding-left: 10px;
+        width: 120px;
+    }
+
+
+    nav button { display: none;}
+    
+    /*display forced to show on a small screen */
+    nav ul.hide {display: block;}
+
+    nav ul {margin-left: 2%;}
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border:none;
+        border-right: 1px solid rgba(0,0,0,0.3) ;
+        padding: .6rem 1rem;    
+    }
+
+    .navWrapper {
+        align-content: left;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+    
+    header h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        margin: 20px;
+        text-shadow: 2px 2px 4px #888;
+        padding: 0px;
+        font-size: 1.8rem ;
+    } 
+   
+    header h3 {
+        font-size: 1.1rem;
+    }
+ 
+
+} /*end large */
 
