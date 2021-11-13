@@ -41,10 +41,10 @@
 		color: linen;
 	}
 
-	.navigation ul li.active.a {
-		
-		color:greenyellow;
-	}
+	navigation ul li.active a {
+		background:lightgray;
+		color:green;
+	  }
 	
 /****************************
          Main CSS
