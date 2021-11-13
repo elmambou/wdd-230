@@ -3,7 +3,7 @@
 *******************************/
 .pancake {
 	width: auto;
-	background-color:bisque;
+	background-color: linen;
 	color: #242038;
 	text-align: center;
 	font-size: 1.5em;
@@ -11,7 +11,6 @@
 	padding: 1.5%;
 	display: none;
 }
-
 #numberOfvisits {
 	text-align: center;
 	color:crimson;
@@ -22,14 +21,14 @@
 
 
 .logo {
-	width: 15%;
+	width: 10%;
 }
 
 /*******************************
 			  Header CSS
 *******************************/
 header {
-	background-color:green;
+	background-color:lightgreen;
 	padding: 5px 0;
 	display: flex;
 	align-items:center;
@@ -45,12 +44,17 @@ header img {
 	display: flex;
 	flex-direction: column;
 }
-
+.headings h1 {
+   font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
+   color: black;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
 
 
 .motto {
 	font-style: italic;
-	color: linen;
+	color: black;
 	margin-left: 20px;
 	font-size: 0.9rem;
 	letter-spacing: 0.3pt;
@@ -62,44 +66,55 @@ header img {
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #240238;
+	background-color:darkgreen;
 	color: linen;
+}
+
+
+/*navigation*/
+
+navigation {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 67rem;
+}
+
+.navigation ul li.active a {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navigation {
-	list-style: none;
-	text-align: center;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  text-align: center;
+  padding: 0;
 }
 
 .navigation li:first-child {
-	display: block;
+  display: block;
 }
 
 .navigation li {
-	display: none;
+  display: none;
 }
 
 .navigation a {
-	display: block;
-	color: linen;
-	padding: 0.75rem;
-	text-align: center;
-	text-decoration: none;
-	font-weight: 700;
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
 }
 
-
 .navigation a:hover {
-	color: #240238;
-	background-color: linen;
-	font-weight: 700;
+  color: yellow;
+  background: rgba(0, 0, 0, .2);
 }
 
 .responsive li {
 	display: block;
 }
+
 
 /****************************
          Main CSS
@@ -194,15 +209,6 @@ img { width: auto; max-width: 90%;}
 
 
     /* ---------------------MAIN----------------- */
-
-    
-.pancake {
-    background : #114B5F;
-    color : white;
-    text-align : center;
-    padding : 0.2rem;
-}
-
 
     main section    {
         padding: .3rem 2%;
