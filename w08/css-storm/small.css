@@ -71,48 +71,51 @@ header img {
 /****************************
 		Navigation Bar CSS
 ****************************/
-navigation {
-  margin: 0 auto;
-  background-color: #33605a;
-  max-width: 67rem;
-}
-
-navigation ul li.active a {
-  background: rgba(0, 0, 0, .2);
-  color: yellow;
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color:darkgreen;
+	color:linen;
 }
 
 .navigation {
-  list-style: none;
-  text-align: left;
-  padding: 0;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0%;
 }
 
 .navigation li:first-child {
-  display: block;
+	display: block;
 }
 
 .navigation li {
-  display: none;
+	display: none;
 }
 
 .navigation a {
-  display: block;
-  color: #fff;
-  padding: 0.75rem;
-  text-align: left;
-  text-decoration: none;
+	display: block;
+	color: linen;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
 }
 
+.navigation li a.active {
+	background-color:lightgray;
+	color:green;
+}  
+
 .navigation a:hover {
-  color: yellow;
-  background: rgba(0, 0, 0, .2);
+	color: #240238;
+	background-color: linen;
+	font-weight: 700;
 }
 
 .responsive li {
 	display: block;
 }
-
 /****************************
          Main CSS
 ****************************/
