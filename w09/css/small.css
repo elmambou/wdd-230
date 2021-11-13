@@ -75,11 +75,21 @@ nav {
 	margin: 0 auto;
 	max-width: 100%;
 	background-color:darkgreen;
-	color: linen;}
+	color: linen;
+}
 
-navigation ul li.active a {
-  background:darkgreen;
-  color:yellow;
+
+/*navigation*/
+
+navigation {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 67rem;
+}
+
+.navigation ul li.active a {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navigation {
@@ -106,13 +116,12 @@ navigation ul li.active a {
 
 .navigation a:hover {
   color: yellow;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, .2);
 }
 
 .responsive li {
 	display: block;
 }
-
 /****************************
          Main CSS
 ****************************/
