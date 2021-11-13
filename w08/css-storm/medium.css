@@ -40,6 +40,11 @@
 		color: linen;
    }
 	
+
+   .navigation li a.active {
+	background-color:lightgrey;
+	color:green;
+}  
 	
 	/*********************
 			 Main CSS
