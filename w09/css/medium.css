@@ -40,7 +40,7 @@
 		color: linen;
    }
    .navigation li a.active {
-	background-color:darkgreen;
+	background-color:rgba(0, 0, 0, 0.4);
 	color:yellow;
 }    
 	
