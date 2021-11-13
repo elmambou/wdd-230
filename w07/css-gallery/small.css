@@ -84,8 +84,8 @@ navigation {
 }
 
 navigation ul li.active a {
-  background:lightgray;
-  color:green;
+  background:darkgreen;
+  color:yellow;
 }
 
 .navigation {
