@@ -83,9 +83,9 @@ navigation {
   max-width: 67rem;
 }
 
-navigation ul li.active a {
-  background:darkgreen;
-  color:yellow;
+.navigation ul li.active a {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navigation {
