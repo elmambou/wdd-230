@@ -1,0 +1,59 @@
+/******************************
+   Desktop+ Viewports CSS
+******************************/
+@media only screen and (min-width: 60em) {
+
+    /****************************
+             Main CSS
+    ****************************/
+/******************************
+   Desktop+ Viewports CSS
+******************************/
+@media only screen and (min-width: 1200px) {
+  
+   
+   /******************
+         Main CSS
+   ******************/
+   main {
+      margin: 0 auto;
+      max-width: 80%;
+   }
+   
+  div p {
+      padding: 4% 0% 4% 0%;
+  
+  }
+  .townName {
+    border: none;
+ }
+ 
+ .summaryBlock {
+    top: 2em;
+    left: 4em;
+ }
+
+ .logo {
+   width:7%;
+}
+
+figure .fig1 { display: block;}
+figure .fig2 { display: none;}
+
+
+.article figure{ width:50%;
+   position: relative;
+   margin-left:300px; 
+  }
+  .google-map { width: 600px; height: 300px; padding: 10px;}
+
+   /*************************
+         Footer CSS
+   *************************/
+
+   footer {
+       margin: 0 auto;
+       padding: 2% 0% 2% 0%;
+       max-width: 80%; }
+   }
+}

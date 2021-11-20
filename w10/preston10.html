@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="Description" content="Preston IV and Weather API, Week 10, WDD230, Elie Mambou">
+
+<!-- This start file was build by Paul Cheney  -->
+<title> home | Jozzy Meteo Du Peuple</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+         <!-- Importing CSS Files -->
+         <link rel = "stylesheet" href = "css/normalize.css"> 
+         <link rel = "stylesheet" href = "css/small.css">   
+         <link rel = "stylesheet" href = "css/medium.css">
+         <link rel = "stylesheet" href = "css/large.css">
+
+         <!-- Importing favicon.io file -->
+         <link rel = "shortcut icon" href = "images/favicon.ico">
+
+</head>
+
+   <body>
+   <!-- HEADER HERE -->
+
+      <!-- Banner that displays on Fridays -->
+      <div class = "pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+      <!-- Responsive Header -->
+      <span id="numberOfvisits"> </span>
+         <header>
+        
+
+             <!-- Image is hosted through Glitch -->
+            <picture>
+            <img src="https://cdn.glitch.com/2aac8b6c-f0e7-401e-9e6a-ea976082cd21%2Fsmallerweatherlogo.png?v=1570711076366" alt="Meteo Du Peuple's Logo">
+            </picture>
+
+            <!-- Weather Site Title and Slogan - -->
+            <section class="headings">
+               <h1>Jozzy Meteo Du Peuple</h1>
+               <div class="motto">With Us You Can Go Anywhere!</div>
+            </section>
+
+         </header>
+
+      <!-- Navigation Bar -->   
+      <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://elmambou.github.io/wdd-230/w09/home-wireframes.html">Home</a></li>
+            <li><a class = "active" href ="https://elmambou.github.io/wdd-230/w10/preston10.html">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="https://elmambou.github.io/wdd-230/w08/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://elmambou.github.io/wdd-230/w07/gallery-7.html">Gallery</a></li>
+            
+         </ul>
+      </nav>
+
+    <main>
+
+             <!-- Title of Preston, Idaho -->
+         <h2 class = "townName">Preston, Idaho</h2>
+
+         <!-- Weather Summary and Hero Image -->
+         <div class = "container weathersummary">
+            <picture>
+            <img  class = "heroimage" src = "images/weatherimage.jpeg" alt = "Preston Weather Summary Image">
+            </picture>
+            <div class = "summaryBlock">
+               <h3>Weather Summary</h3>
+               <p>Current: <span id = "cTemp"></span> &#8457;</p>
+               <p>High: <span id = "hTemp"></span> &#8457;</p>
+               <p>Wind Chill: <span id = "windchill"></span></p>
+               <p>Humidity: <span id = "humidity"></span></p>
+               <p>Wind Speed: <span id = "wspeed"></span> mph</p>
+            </div>
+         </div>
+         
+         <!-- Forecast generated through JSON and JS -->
+         <div class="forecast"></div>              
+
+    <section class="article">
+        <h2 class = "articletitle"><strong>Dancing in the sunset</strong></h2>
+        <p class = "articleparag" ><em>By Henry Le Moustique</em></p>
+        
+        <figure>
+        <img class= "fig1" src="images/articleimage1.jpg"  width="100%" alt="Beautiful Sunset">
+        </figure>
+        <p>
+        AfriWX brings a variety of weather resources for South Africa to you in the palm of your hand. 
+            We always have the latest up to date Satellite Weather Images for Southern Africa and Beautiful
+            Animated Satellite Images with no need for users to be fiddling with trying to refresh their browsers 
+            to get the latest images, we take care of that all for you through our custom server technologies.
+            We also provide the latest up to date Global Forecast System (GFS) forecast model maps (WXMaps) in a 
+            format customized specially for South Africa giving you a 7 day outlook on predicted weather patterns.
+            Dams (Reservoirs) in South Africa, Rainfall Predictions and Daily Recorded Rainfall Figures, WebCams, Wind Maps,
+            Cloud Cover Forecast Maps with Black Clouds Mode, Waves Forecasts, Ocean Swells and Sea Surface Temperatures,
+            Animated Satellite Photos, Solar Space Weather, ENSO - El Niño and La Niña Updates for Southern Africa, 
+            South African Weather Blog and more. This Weather Site is a work in progress and new features are being added frequently.
+        </p>
+        <figure>
+        <img class= "fig2" src="images/articleimage.jpg" alt="Beautiful Sunset">
+        <figcaption class= "fig2"> Beautiful Sunset</figcaption>
+        </figure>
+                
+       
+    </section>
+
+        <!-- Contact Information-->
+        <section class="contact">
+            <h1> Contact Information </h1>
+        
+            <div class = "address">
+            <h2>Jozzy Meteo Du Peuple</h2>
+            <p>45 Jubilee Road<br>
+            Sandton, South Africa P.O 454785<br>
+            &#9742; +27 785 5698 782<br>
+            &#9993; info@jozzymeteodp.org<br><br>
+            <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/facebooklogo.png" alt = "Facebook Logo"></a>
+            <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/instagramlogo.png" alt = "Instagram Logo"></a></p>
+            </div>
+
+            
+            <div class="map">
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14326.270917417056!2d28.0408619!3d-26.1456338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1975bbfb2e4bc99!2s54%20on%20Bath!5e0!3m2!1sen!2sza!4v1634408454961!5m2!1sen!2sza" 
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    
+            </div>
+        </section>
+
+    </main>
+
+
+      <!-- Footer for Storm Center Page -->
+    <footer>
+            <p>
+               &copy; Jozzy Meteo du Peuple &bull; <a id="byuiLink" href="https://www.byui.edu/online"><strong>BYU-Idaho Online Learning</strong> </a> | <b>Elie S. Mambou</b> &bull; <span id="copyrightyear"></span> | South Africa  
+            <p><a href = "https://openweathermap.org">OpenWeatherMap</a> supplies all live weather information</p>
+            <p id  = "fullDate"></p>
+    </footer>
+
+      <!-- Weather Site JavaScript Date Format -->
+    <script src = "js/date.js"></script>
+
+    <!-- Importing JavaScript File for Navigation -->
+    <script src = "js/menu.js"></script>
+
+    <!-- Saturday Preston Pancakes -->
+    <script src = "js/saturdayevent.js"></script>
+
+    <!-- Importing Web Font JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <!-- Running Web Loader Function -->
+    <script src= "js/webloader.js"></script>
+
+    <!-- JSON JavaScript Import -->
+     <!-- Five Day Forecast JS -->
+    <script src = "js/fiveDayForecast.js"></script>
+    <!-- Weather API + Windchill + 5-day Forecast -->
+    <script src = "js/prestonApi.js"></script>
+   
+   </body>
+</html>
