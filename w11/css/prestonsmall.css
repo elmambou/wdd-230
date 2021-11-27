@@ -1,0 +1,247 @@
+/********************************
+           Global CSS           
+********************************/
+html {
+	margin: 0 auto;
+	background-color:#240238;
+}
+
+* {
+	margin: 0;
+}
+/*******************************
+			Banner CSS				
+*******************************/
+.pancake {
+	width: auto;
+	background-color: linen;
+	color: #242038;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
+	padding: 1.5%;
+	display: none;
+}
+
+#numberOfvisits {
+	text-align: center;
+	color:crimson;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.5em;
+	border: 2px solid black;
+}
+
+
+.logo {
+	width: 15%;
+}
+
+/*******************************
+			  Header CSS
+*******************************/
+header {
+	background-color:lightgreen;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+   font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
+   color:black;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+	font-style: italic;
+	color:black;
+	margin-left: 20px;
+	font-size: 0.9rem;
+	letter-spacing: 0.3pt;
+}
+
+/****************************
+		Navigation Bar CSS
+****************************/
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color:darkgreen;
+	color: linen;
+}
+
+
+/*navigation*/
+
+navigation {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 67rem;
+}
+
+.navigation ul li.active a {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: yellow;
+  background: rgba(0, 0, 0, .2);
+}
+
+.responsive li {
+	display: block;
+}
+
+/****************************
+         Main CSS
+****************************/
+
+main, footer {
+	text-align: center;
+	max-width: 100%;
+	background-color: lightgreen;
+	color: black;
+	margin: 0 auto;
+}
+
+
+.townName {
+	font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	padding: 2% 0% 0% 0%;
+}
+
+.container {
+	font-family: "Montserrat", 'Times New Roman', Times, serif;
+	margin: 0 auto;
+}
+
+div p {
+	padding: 2% 0% 2% 0%;
+}
+
+.weathersummary {
+	position: relative;
+	margin: 0 auto;
+}
+
+.weathersummary .heroimage {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+picture {
+	max-width: 100%;
+}
+
+.summaryBlock {
+	font-family: "Montserrat", 'Times New Roman', Times, serif; 
+	position: absolute;
+    top: 0.4em;
+    left: 2em;
+    background:rgb(211, 211, 211, 0.7);
+    border: 2px solid #240238;
+	color: black;
+}
+
+.summaryBlock p {
+	padding: 0;
+}
+
+.forecast {
+	display: none;
+}
+
+.articletitle {
+	font-size: 1.5em;
+	padding: 2% 0% 2% 2%;
+	text-align: left;
+}
+
+.article figure{width: 40%;
+	position: relative;
+	margin: 2% 5%;
+  }
+  figure .fig1 { display: none;}
+
+/*.fig1 {
+	display: none;
+} */
+
+.articlecontent p {
+	font-size: 1.2em;
+	text-align: left;
+	padding: 2%;
+}
+
+.articleparag {
+	text-align: left;
+	padding: 3% 3%; margin-top: 1%;}
+
+.logo {
+	width: 15%;
+	padding: 1% 1% 0% 1%; 
+}
+
+.contact h1 {
+	 margin: 0.8em;}
+
+.contact { background-color: linen;
+}
+.google-map { width: 370px; height: 200px; padding: 10px; display: none;}
+/****************************
+			Footer CSS
+****************************/
+footer {
+
+text-align: center;
+background-color:lightgreen;
+color:black;
+font-size:large;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 8% 0% 8% 0%;
+max-width: 100%;
+margin: 0 auto;
+
+}
+
+.copyrightyear {
+font-family: sans-serif;
+font-weight: 300;
+}

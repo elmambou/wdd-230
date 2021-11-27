@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="Description" content="Homepage, Week 11, WDD230, Elie Mambou">
+
+<!-- This start file was build by Paul Cheney  -->
+<title> home | Jozzy Meteo Du Peuple</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+         <!-- Importing CSS Files -->
+         <link rel = "stylesheet" href = "css/normalize.css"> 
+         <link rel = "stylesheet" href = "css/homesmall.css">   
+         <link rel = "stylesheet" href = "css/homemedium.css">
+         <link rel = "stylesheet" href = "css/homelarge.css">
+
+         <!-- Importing favicon.io file -->
+         <link rel = "shortcut icon" href = "images/favicon.ico">
+
+</head>
+
+   <body>
+   <!-- HEADER HERE -->
+
+        <header>
+            <!-- Image is hosted through Glitch -->
+            <picture>
+            <img src="https://cdn.glitch.com/2aac8b6c-f0e7-401e-9e6a-ea976082cd21%2Fsmallerweatherlogo.png?v=1570711076366" alt="Meteo Du Peuple's Logo">
+            </picture>
+
+            <!-- Weather Site Title and Slogan - -->
+            <section class="headings">
+               <h1>Jozzy Meteo Du Peuple</h1>
+               <div class="motto">With Us You Can Go Anywhere!</div>
+            </section>
+
+         </header>
+
+      <!-- Navigation Bar -->   
+      <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class ="active" href="home.html">Home</a></li>
+            <li><a href ="preston.html">Preston</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            
+         </ul>
+      </nav>
+
+<main>
+
+         <!-- Banner Image-->
+    <img class = "bannerImage" src = "images/bannerimage.jpg" alt = "Weather Banner Image">
+  
+    <!-- JSON Cards, imported from JavaScript -->
+    <div class = "cards"></div>
+
+    <!-- Article Feature -->
+    <section class = "homeArticle">
+    <h1><em>Driving Safely during Idaho Winters by the Idaho Transportation Department</em></h1>
+
+    <!-- Filler Text -->
+    <p>Winter in Idaho can be beautiful, even fun when skiing, snowboarding, snowmobiling, or other winter sports are part of your family’s recreation plans.
+    But traveling on winter roads can be tricky, even treacherous. 
+    The Idaho State Police have the following tips to help keep drivers and their passengers traveling safely during winter driving conditions.</p>
+
+    <p><em>Plan for extra travel time<em>:</p>
+
+    <p>Drivers need to SLOW DOWN and ALLOW MORE SPACE between you and the driver in front of you during winter driving conditions.
+
+    Slow down well before a stop or a turn to stay in control. Even vehicles with good traction need extra time and space;
+
+    Safe winter driving often means traveling less than half the posted speed limit. Just expect your trip will take longer and plan for the extra time.
+
+    Know the Conditions:</P>
+    
+
+    </section>
+
+        <!-- Contact Information-->
+        <section class="contact">
+         <div class="contact-header">
+            <h1> Contact Information </h1></div>
+        
+            <div class = "address">
+            <h2>Jozzy Meteo Du Peuple</h2>
+            <p>45 Jubilee Road<br>
+            Sandton, South Africa P.O 454785<br>
+            &#9742; +27 785 5698 782<br>
+            &#9993; info@jozzymeteodp.org<br><br>
+            <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/facebooklogo.png" alt = "Facebook Logo"></a>
+            <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/instagramlogo.png" alt = "Instagram Logo"></a></p>
+            </div>
+
+            
+            <div class="map">
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14326.270917417056!2d28.0408619!3d-26.1456338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1975bbfb2e4bc99!2s54%20on%20Bath!5e0!3m2!1sen!2sza!4v1634408454961!5m2!1sen!2sza" 
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    
+            </div>
+        </section>
+   
+
+</main>
+
+    <!-- Footer for Storm Center Page -->
+    <footer>
+            <p>
+               &copy; Jozzy Meteo du Peuple &bull; <a id="byuiLink" href="https://www.byui.edu/online"><strong>BYU-Idaho Online Learning</strong> </a> | <b>Elie S. Mambou</b> &bull; <span id="copyrightyear"></span> | South Africa  
+            <p id  = "fullDate"></p>
+    </footer>
+
+      <!-- Weather Site JavaScript Date Format -->
+    <script src = "js/date.js"></script>
+
+    <!-- Importing JavaScript File for Navigation -->
+    <script src = "js/menu.js"></script>
+
+    <!-- Importing Web Font JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <!-- Running Web Loader Function -->
+    <script src= "js/webloader.js"></script>
+
+    <!-- JSON JavaScript Import -->
+    <script src = "js/jsontown.js"></script>
+   </body>
+</html>

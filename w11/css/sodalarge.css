@@ -1,0 +1,86 @@
+/******************************
+   Desktop+ Viewports CSS
+******************************/
+/*@media only screen and (min-width: 60em) {*/
+
+    /****************************
+             Main CSS
+    ****************************/
+/******************************
+   Desktop+ Viewports CSS
+******************************/
+@media only screen and (min-width: 60em) {
+  
+   
+   /******************
+         Main CSS
+   ******************/
+   main, footer {
+      margin: 0 auto;
+      max-width: 80%;
+      background-color: lightgreen;
+   }
+   
+  div p {
+      padding: 4% 0% 4% 0%;
+  
+  }
+  .townName {
+    border: none;
+ }
+ 
+ .summaryBlock {
+    top: 2em;
+    left: 4em;
+ }
+
+ .logo {
+   width:7%;
+}
+
+figure .fig1 { display: block;}
+figure .fig2 { display: none;}
+
+
+.article figure{ width:50%;
+   position: relative;
+   margin-left:300px; 
+  }
+
+  .contact-header{
+   grid-area: header;
+}
+.address {
+   grid-area: address
+ }
+ .map {
+   grid-area: map
+ }
+ .contact{
+   display:grid;
+   grid-gap: 5px;
+   grid-template-areas:
+      "header"
+      "address"
+      "map"
+ }
+ .contact {
+   grid-gap: 20px;
+   grid-template-columns: auto 500px;
+    grid-template-areas:
+      "header header"
+      "address map";
+  
+     }
+
+  /*.google-map { width: 600px; height: 300px; padding: 10px;}*/
+
+   /*************************
+         Footer CSS
+   *************************/
+
+   footer {
+       margin: 0 auto;
+       padding: 2% 0% 2% 0%;
+       max-width: 80%; }
+   }

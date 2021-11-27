@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="Description" content="Fish Haven, Week 11, WDD230, Elie Mambou">
+
+<!-- This start file was build by Paul Cheney  -->
+<title> home | Jozzy Meteo Du Peuple</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+         <!-- Importing CSS Files -->
+         <link rel = "stylesheet" href = "css/normalize.css"> 
+         <link rel = "stylesheet" href = "css/fishsmall.css">   
+         <link rel = "stylesheet" href = "css/fishmedium.css">
+         <link rel = "stylesheet" href = "css/fishlarge.css">
+
+         <!-- Importing favicon.io file -->
+         <link rel = "shortcut icon" href = "images/favicon.ico">
+
+</head>
+
+   <body>
+   <!-- HEADER HERE -->
+
+         <header>
+        
+
+             <!-- Image is hosted through Glitch -->
+            <picture>
+            <img src="https://cdn.glitch.com/2aac8b6c-f0e7-401e-9e6a-ea976082cd21%2Fsmallerweatherlogo.png?v=1570711076366" alt="Meteo Du Peuple's Logo">
+            </picture>
+
+            <!-- Weather Site Title and Slogan - -->
+            <section class="headings">
+               <h1>Jozzy Meteo Du Peuple</h1>
+               <div class="motto">With Us You Can Go Anywhere!</div>
+            </section>
+
+         </header>
+
+      <!-- Navigation Bar -->   
+      <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href ="preston.html">Preston</a></li>
+            <li><a class = "active" href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            
+         </ul>
+      </nav>
+
+    <main>
+
+             <!-- Title of Preston, Idaho -->
+         <h2 class = "townName">Fish Haven, Idaho</h2>
+
+         <!-- Display for Town JSON data card for Upcoming Events -->
+         <div class = "cards2"></div> 
+
+         <!-- Weather Summary and Hero Image -->
+         <div class = "container weathersummary">
+            <picture>
+            <img  class = "heroimage" src = "images/fishhavenheroimage.jpg" alt = "Fish Haven Weather Highights Image">
+            </picture>
+            <div class = "summaryBlock">
+               <h3>Weather Summary</h3>
+               <p>Current: <span id = "cTemp"></span> &#8457;</p>
+               <p>High: <span id = "hTemp"></span> &#8457;</p>
+               <p>Wind Chill: <span id = "windchill"></span></p>
+               <p>Humidity: <span id = "humidity"></span></p>
+               <p>Wind Speed: <span id = "wspeed"></span> mph</p>
+            </div>
+         </div>
+         
+         <!-- Forecast generated through JSON and JS -->
+         <div class="forecast"></div>              
+
+    <section class="article">
+        <h2 class = "articletitle"><strong>Fishing Tips From An Expert</strong></h2>
+        <p class = "articleparag" ><em>By Elie Silvere Mambou</em></p>
+        
+        <figure>
+        <img class= "fig1" src="images/fisharticle.jpg"  width="320" alt="Nzonzi Le Pecheur">
+        </figure>
+        <p> Fish Haven is the name of a town in Idaho, and it is also known for its amazing fishing spots tradition. We have asked one of the elderly brother
+         in the city about his experience as a fisherman. He goes by the name of James Ollard, he is seventy years old, and he has been fishing for the past forty years.
+         James has indicated that if you want to have a great fishing experience in Fish Haven, please visit the town during the summer season. This is the 
+         time to enjoy fishing as fishes are hungry following their annual migration.
+         He also said that " he prefers to fish in the saratoga and hampster fishing pools, it is quiet and peaceful, above all rewarding." </p>
+        <figure>
+        <img class= "fig2" src="images/fisharticle.jpg" alt="Nzonzi Le Pecheur">
+        <figcaption class= "fig2"> Pêche Sur La Loufoulakari</figcaption>
+        </figure>
+                
+   </section>
+
+
+           <!-- Contact Information-->
+           
+   <section class="contact">
+      <div class="contact-header">
+         <h1> Contact Information </h1></div>
+                 
+         <div class = "address">
+         <h2>Jozzy Meteo Du Peuple</h2>
+         <p>45 Jubilee Road<br>
+         Sandton, South Africa P.O 454785<br>
+         &#9742; +27 785 5698 782<br>
+         &#9993; info@jozzymeteodp.org<br><br>
+         <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/facebooklogo.png" alt = "Facebook Logo"></a>
+         <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo" src = "images/instagramlogo.png" alt = "Instagram Logo"></a></p>
+         </div>
+
+            
+        <div class="map">
+        <iframe class="google-map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14326.270917417056!2d28.0408619!3d-26.1456338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1975bbfb2e4bc99!2s54%20on%20Bath!5e0!3m2!1sen!2sza!4v1634408454961!5m2!1sen!2sza" 
+        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               
+        </div>
+   </section>
+
+   </main>
+      <!-- Footer for Storm Center Page -->
+    <footer>
+         <section class = "attributions">
+            <p>&copy; Jozzy Meteo du Peuple &bull; <a id="byuiLink" href="https://www.byui.edu/online"><strong>BYU-Idaho Online Learning</strong> </a> | <b>Elie S. Mambou</b> &bull; <span id="copyrightyear"></span> | South Africa  
+            <p><a href = "https://openweathermap.org">OpenWeatherMap</a> supplies all live weather information</p>
+            <p id  = "fullDate"></p>
+         </section>
+    </footer>
+
+      <!-- Weather Site JavaScript Date Format -->
+    <script src = "js/date.js"></script>
+
+    <!-- Importing JavaScript File for Navigation -->
+    <script src = "js/menu.js"></script>
+
+    <!-- Importing Web Font JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <!-- Running Web Loader Function -->
+    <script src= "js/webloader.js"></script>
+    
+    <script src= "js/fishevents.js"></script>
+
+    <!-- JSON JavaScript Import -->
+     <!-- Five Day Forecast JS -->
+    <script src = "js/fish_fiveDayForecast.js"></script>
+    <!-- Weather API + Windchill + 5-day Forecast -->
+    <script src = "js/fishApi.js"></script>
+   
+   </body>
+</html>
