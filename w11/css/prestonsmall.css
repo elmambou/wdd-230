@@ -188,6 +188,22 @@ picture {
 	display: none;
 }
 
+.cards {
+	text-align: center;
+	background-color: #240238;
+	color: linen;
+	padding-bottom: 2%;
+} 
+
+.cards h1{
+	padding-top: 4%;
+	font-size: 1.2em;
+}
+
+.cards hr {
+	display: none;
+}
+
 .articletitle {
 	font-size: 1.5em;
 	padding: 2% 0% 2% 2%;
