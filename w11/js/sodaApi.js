@@ -1,5 +1,9 @@
 // API.OPENWEATHER.ORG Today's JSON Data URL
+<<<<<<< HEAD
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83276&units=imperial&appid=200cf102e64ee34534ad4bd4429e42bc"
+=======
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83276&units=imperial&appid=200cf102e64ee34534ad4bd4429e42bc";
+>>>>>>> a15ec63bb03afdf4e08bdbcc2afbad519bb9ae83
 
 // Fetch URL
 fetch(apiURL)
