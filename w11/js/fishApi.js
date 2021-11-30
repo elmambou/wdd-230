@@ -1,10 +1,8 @@
 // API.OPENWEATHER.ORG Today's JSON Data URL
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=200cf102e64ee34534ad4bd4429e42bc";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83287&units=imperial&appid=200cf102e64ee34534ad4bd4429e42bc"
 
 // Fetch URL
 fetch(apiURL)
-
-   // 
    .then((response) => response.json())
    .then((jsObject) => {
 

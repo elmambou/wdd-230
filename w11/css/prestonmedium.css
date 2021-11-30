@@ -70,6 +70,17 @@
 		border: 1px solid linen;
 	}
 	
+	.cards h1{
+		padding-top: 1%;
+	}
+
+	.cards p {
+		padding: 1%;
+	}
+
+	.cards hr {
+		display: block;
+	}
 
   /*	.article figure{width: 100%;
 		position: relative;

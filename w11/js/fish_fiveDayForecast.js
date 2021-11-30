@@ -1,5 +1,5 @@
 // API.OPENWEATHERMAP.ORG Forecast JSON URL
-const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=200cf102e64ee34534ad4bd4429e42bc";
+const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?zip=83287&units=imperial&appid=200cf102e64ee34534ad4bd4429e42bc";
 
 // Fetch API Forecast URL
 fetch(apiURLForecast)
